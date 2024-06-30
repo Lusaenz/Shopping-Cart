@@ -15,6 +15,9 @@
 }
 
 .card-products img {
-  width: 100%;
+  aspect-ratio: 1.5; /* Esta propiedad ayuda a que todas la imagenes tengan el mimsmo tamaño*/
+  border-radius: 8px;
   height: 50%;
+  object-fit: cover;/* Asegura que la imagen cubra todo el contenedor */
+  width: 100%;
 }

@@ -72,3 +72,11 @@ footer {
 .container-store {
   background-color: var(--color-acento--background);
 }
+ button {
+  background-color: var(--color-acento);
+  border: unset;
+  border-radius: 7px;
+  cursor: pointer;
+  color: var( --color-products);
+  padding: 5px 10px;
+ }
