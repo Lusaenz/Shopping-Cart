@@ -27,6 +27,7 @@ function productStartCard(products) {
     productNew.appendChild(buyButton);
 
     containerCard.appendChild(productNew);
+    productNew.getElementsByTagName('button')[0].addEventListener('click', ()=> addToCart(product))
   });
 }
 
